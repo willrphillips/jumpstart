@@ -1,0 +1,27 @@
+/* Borders for looking at css*/
+h1, h2, h3, h4, h5, h6, div, nav, header, footer {
+  border: 1px solid orangered;
+}
+
+html {
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+
+h1 {
+  font-family: 'Monoton';
+  font-size: 8rem;
+}
+
+nav {
+  background-color: #999;
+  color: #399bd1;
+}
+
+nav ul, nav li {
+  display: flex;
+  list-style: none;
+  vertical-align: middle;
+  padding: 1rem;
+}
